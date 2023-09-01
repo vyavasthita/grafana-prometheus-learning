@@ -21,6 +21,7 @@ services:
     # volumes:
     #   - '$PWD/grafana_data:/var/lib/grafana'
   app:
+    container_name: app
     build:
       context: app
       dockerfile: Dockerfile
